@@ -42,10 +42,6 @@ body {
   color: hsl(303, 10%, 53%);
 }
 
-.social-proof-opinions {
-  display: flex;
-}
-
 .social-proof-rating {
   display: flex;
   flex-direction: column;
@@ -88,6 +84,7 @@ body {
 }
 
 .social-proof-opinions {
+  display: flex;
   margin-top: 60px;
   display: flex;
   justify-content: space-between;
@@ -289,6 +286,13 @@ body {
     width: 100%;
     height: auto;
     padding: 30px;
+    margin-bottom: 15px;
+  }
+  .social-proof-opinion.opinion-2 {
+    margin-top: 0px;
+  }
+  .social-proof-opinion.opinion-3 {
+    margin-top: 0px;
   }
   .bg-pattern-desktop {
     display: none;
